@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ahmed Ihsan - Professional Portfolio - Data Analyst & Software Engineer specializing in AI, ML, and Web Development">
+    <meta name="keywords" content="Data Analyst, Software Engineer, AI, Machine Learning, Web Development, Python, JavaScript">
+    <meta name="author" content="Ahmed Ihsan">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Ahmed Ihsan - Data Analyst & Software Engineer">
+    <meta property="og:description" content="Professional portfolio showcasing expertise in AI, ML, and Web Development">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="https://your-website.com">
+
+    <title>Ahmed Ihsan | Data Analyst & Software Engineer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Animation Libraries -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+   
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Preloader
+    <div class="preloader" id="preloader">
+        <div class="loader">
+            <div class="loading-spinner"></div>
+        </div>
+    </div> -->
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#home" class="logo">
+                        <img src="images/logo.svg" alt="Ahmed Ihsan Logo" width="40" height="40">
+                        <span>Ahmed Ihsan</span>
+                    </a>
+                </div>
+
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+
+                <div class="navbar-collapse">
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-actions">
+                    <button class="theme-toggle" aria-label="Toggle theme" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text" data-aos="fade-right">
+                        <span class="subtitle">Welcome to my Portfolio</span>
+                        <h1 class="title">Hi, I'm Ahmed Ihsan</h1>
+                        <h2 class="profession">
+                            <span class="text-rotate" data-period="2000"
+                                data-rotate='["Data Analyst", "Software Engineer", "AI Developer", "ML Engineer"]'>
+                            </span>
+                        </h2>
+                        <p class="description">
+                            Transforming complex data into actionable insights and building innovative solutions 
+                            using AI and Machine Learning.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="#projects" class="btn btn-primary">View Projects</a>
+                            <a href="assets/cv.pdf" class="btn btn-secondary" download>
+                                Download CV <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/ahmed-ihsan-690a82201" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="LinkedIn Profile">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Ahmed-Ihsan" 
+                               target="_blank" 
+                               rel="noopener noreferrer"
+                               aria-label="GitHub Profile">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:demha1245@gmail.com"
+                               aria-label="Email Contact">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image" data-aos="fade-left">
+                        <img src="images/profile.webp" 
+                             alt="Ahmed Ihsan - Professional Portrait"
+                             width="400"
+                             height="400"
+                             loading="lazy">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-shape">
+                <svg viewBox="0 0 1440 320">
+                    <path fill="#f5f5f5" fill-opacity="1" 
+                          d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,122.7C672,
+                          117,768,171,864,197.3C960,224,1056,224,1152,197.3C1248,171,1344,117,
+                          1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,
+                          320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,
+                          320,96,320,48,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">About Me</span>
+                    <h2 class="section-title">Know Me More</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-image" data-aos="fade-right">
+                        <img src="images/about.webp" 
+                             alt="About Ahmed Ihsan"
+                             width="500"
+                             height="600"
+                             loading="lazy">
+                    </div>
+                    <div class="about-text" data-aos="fade-left">
+                        <h3>Professional Journey</h3>
+                        <p>
+                            With over 5 years of experience in software development and data analysis,
+                            I specialize in creating innovative solutions using cutting-edge technologies.
+                            My expertise spans across AI, Machine Learning, and Web Development.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-text">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-text">Projects Completed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">30+</span>
+                                <span class="stat-text">Happy Clients</span>
+                            </div>
+                        </div>
+                        <div class="about-skills">
+                            <h4>Core Competencies</h4>
+                            <ul class="skill-tags">
+                                <li>Data Analysis</li>
+                                <li>Machine Learning</li>
+                                <li>AI Development</li>
+                                <li>Web Development</li>
+                                <li>Problem Solving</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Work Experience</span>
+                    <h2 class="section-title">Professional Background</h2>
+                </div>
+                <div class="experience-timeline">
+                    <!-- Timeline items will be added via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Technical Expertise</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                </div>
+                <div class="skills-container">
+                    <!-- Skills content will be added via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Featured Work</span>
+                    <h2 class="section-title">Recent Projects</h2>
+                </div>
+                <div class="projects-filter" data-aos="fade-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai-ml">AI/ML</button>
+                    <button class="filter-btn" data-filter="data-analysis">Data Analysis</button>
+                    <button class="filter-btn" data-filter="web-dev">Web Development</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project items will be added via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-subtitle">Get in Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info-details">
+                                <h4>Email</h4>
+                                <p>demha1245@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="info-details">
+                                <h4>Phone</h4>
+                                <p>+9647516274515</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-details">
+                                <h4>Location</h4>
+                                <p>Baghdad, Iraq</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form" data-aos="fade-left">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo.svg" alt="Ahmed Ihsan Logo" width="40" height="40">
+                    <p>Building the future with code and data</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/ahmed-ihsan-690a82201" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Ahmed-Ihsan" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           aria-label="GitHub">
+                           <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:demha1245@gmail.com"
+                           aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to receive updates about new projects and tech articles.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <div class="form-group">
+                            <input type="email" 
+                                   id="newsletter-email" 
+                                   name="newsletter-email" 
+                                   placeholder="Enter your email"
+                                   required>
+                            <button type="submit" aria-label="Subscribe">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; <span id="current-year">2024</span> Ahmed Ihsan. All rights reserved.</p>
+                </div>
+                <div class="footer-extra-links">
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="sitemap.xml">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cookie Consent -->
+    <div id="cookie-consent" class="cookie-consent">
+        <div class="cookie-content">
+            <p>This website uses cookies to ensure you get the best experience.</p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="btn btn-primary">Accept</button>
+                <button id="reject-cookies" class="btn btn-secondary">Reject</button>
+                <a href="privacy.html" class="cookie-policy">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Defer non-critical scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+    <script src="js/vendors/gsap.min.js" defer></script>
+    <script src="js/vendors/smooth-scroll.min.js" defer></script>
+    <script src="js/vendors/typed.min.js" defer></script>
+    
+    <!-- Custom Scripts -->
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/animations.js"></script>
+    <script type="module" src="js/form-validation.js"></script>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Ahmed Ihsan",
+        "jobTitle": "Data Analyst & Software Engineer",
+        "url": "https://your-website.com",
+        "sameAs": [
+            "https://linkedin.com/in/ahmed-ihsan-690a82201",
+            "https://github.com/Ahmed-Ihsan"
+        ],
+        "email": "demha1245@gmail.com",
+        "telephone": "+9647516274515",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Baghdad",
+            "addressCountry": "Iraq"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Your University Name"
+        },
+        "knowsAbout": [
+            "Data Analysis",
+            "Machine Learning",
+            "Artificial Intelligence",
+            "Web Development",
+            "Software Engineering"
+        ]
+    }
+    </script>
+
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+</body>
+</html>
